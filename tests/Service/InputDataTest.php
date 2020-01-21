@@ -9,7 +9,6 @@ use Payme\CommissionTask\Service\InputData;
 
 class InputDataTest extends TestCase
 {
-
     private $file = 'input.csv';
     private $input;
 

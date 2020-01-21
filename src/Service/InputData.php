@@ -29,17 +29,3 @@ class InputData
         return array_map('str_getcsv', file($this->file));
     }
 }
-/*
-$file = $argv[1];
-
-if (file_exists($file)) {
-    $file = fopen($file, 'r');
-    while(! feof($file)) {
-        $results .= fgets($file);
-    }
-    fclose($file);
-    fwrite(STDOUT, $results);
-} else {
-    fwrite(STDOUT, 'File does not exist.\n');
-}
-*/
